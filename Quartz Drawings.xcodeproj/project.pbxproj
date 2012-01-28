@@ -20,6 +20,10 @@
 		CD866EC314D4B749004B5260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD866EA414D4B749004B5260 /* Foundation.framework */; };
 		CD866ECB14D4B749004B5260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD866EC914D4B749004B5260 /* InfoPlist.strings */; };
 		CD866ECE14D4B749004B5260 /* Quartz_DrawingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD866ECD14D4B749004B5260 /* Quartz_DrawingsTests.m */; };
+		CD866EF414D4C1D9004B5260 /* basketball.m in Sources */ = {isa = PBXBuildFile; fileRef = CD866EF014D4C1D9004B5260 /* basketball.m */; };
+		CD866EF514D4C1D9004B5260 /* Green Basketball.m in Sources */ = {isa = PBXBuildFile; fileRef = CD866EF214D4C1D9004B5260 /* Green Basketball.m */; };
+		CD866EF714D4C1E5004B5260 /* OrangeBasketball.m in Sources */ = {isa = PBXBuildFile; fileRef = CD866EF614D4C1E5004B5260 /* OrangeBasketball.m */; };
+		CD866EFE14D4C1F7004B5260 /* basketballCourt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD866EFD14D4C1F7004B5260 /* basketballCourt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		CD866ECA14D4B749004B5260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD866ECC14D4B749004B5260 /* Quartz_DrawingsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz_DrawingsTests.h; sourceTree = "<group>"; };
 		CD866ECD14D4B749004B5260 /* Quartz_DrawingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_DrawingsTests.m; sourceTree = "<group>"; };
+		CD866EEF14D4C1D9004B5260 /* basketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basketball.h; sourceTree = "<group>"; };
+		CD866EF014D4C1D9004B5260 /* basketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basketball.m; sourceTree = "<group>"; };
+		CD866EF114D4C1D9004B5260 /* Green Basketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Green Basketball.h"; sourceTree = "<group>"; };
+		CD866EF214D4C1D9004B5260 /* Green Basketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Green Basketball.m"; sourceTree = "<group>"; };
+		CD866EF314D4C1D9004B5260 /* OrangeBasketball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeBasketball.h; sourceTree = "<group>"; };
+		CD866EF614D4C1E5004B5260 /* OrangeBasketball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeBasketball.m; sourceTree = "<group>"; };
+		CD866EFC14D4C1F7004B5260 /* basketballCourt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basketballCourt.h; sourceTree = "<group>"; };
+		CD866EFD14D4C1F7004B5260 /* basketballCourt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basketballCourt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,7 @@
 			children = (
 				CD866EB114D4B749004B5260 /* AppDelegate.h */,
 				CD866EB214D4B749004B5260 /* AppDelegate.m */,
+				CD866EFF14D4C200004B5260 /* New Group */,
 				CD866EB414D4B749004B5260 /* MainStoryboard.storyboard */,
 				CD866EB714D4B749004B5260 /* ViewController.h */,
 				CD866EB814D4B749004B5260 /* ViewController.m */,
@@ -149,6 +162,21 @@
 				CD866EC914D4B749004B5260 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD866EFF14D4C200004B5260 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CD866EFC14D4C1F7004B5260 /* basketballCourt.h */,
+				CD866EFD14D4C1F7004B5260 /* basketballCourt.m */,
+				CD866EEF14D4C1D9004B5260 /* basketball.h */,
+				CD866EF014D4C1D9004B5260 /* basketball.m */,
+				CD866EF114D4C1D9004B5260 /* Green Basketball.h */,
+				CD866EF214D4C1D9004B5260 /* Green Basketball.m */,
+				CD866EF314D4C1D9004B5260 /* OrangeBasketball.h */,
+				CD866EF614D4C1E5004B5260 /* OrangeBasketball.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +288,10 @@
 				CD866EAF14D4B749004B5260 /* main.m in Sources */,
 				CD866EB314D4B749004B5260 /* AppDelegate.m in Sources */,
 				CD866EB914D4B749004B5260 /* ViewController.m in Sources */,
+				CD866EF414D4C1D9004B5260 /* basketball.m in Sources */,
+				CD866EF514D4C1D9004B5260 /* Green Basketball.m in Sources */,
+				CD866EF714D4C1E5004B5260 /* OrangeBasketball.m in Sources */,
+				CD866EFE14D4C1F7004B5260 /* basketballCourt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +461,7 @@
 				CD866ED314D4B749004B5260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD866ED414D4B749004B5260 /* Build configuration list for PBXNativeTarget "Quartz DrawingsTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +470,7 @@
 				CD866ED614D4B749004B5260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
